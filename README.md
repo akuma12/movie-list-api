@@ -1,2 +1,2 @@
-# movie-list-sam
-A sample Movie list REST API using AWS SAM
+# movie-list-api
+A sample Movie list REST API
