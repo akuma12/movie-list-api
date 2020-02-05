@@ -1,0 +1,12 @@
+app: 
+  build: .
+  ports:
+    - "5000:5000"
+  volumes:
+    - .:/app
+  environment:
+    - FLASK_APP=api/movies.py
+    - FLASK_ENV=development
+    - LC_ALL=C.UTF-8
+    - LANG=C.UTF-8
+  command: flask run
